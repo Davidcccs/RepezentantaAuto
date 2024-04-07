@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+    <title>ReprezentantaAuto</title>
+    <link rel="stylesheet" href="catalog.css">
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyD6n_z-wHhuGZ24uq-De_JJY357T7F2vl8",
+          authDomain: "database-reprezentanta.firebaseapp.com",
+          databaseURL: "https://database-reprezentanta-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "database-reprezentanta",
+          storageBucket: "database-reprezentanta.appspot.com",
+          messagingSenderId: "786912566289",
+          appId: "1:786912566289:web:2ded4bc4eff7be1b31a5b0"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+    <title>ReprezentantaAuto</title>
+    <!-- Pentru a lega pagina .css de cea .html vom folosi link-ul de mai jos -->
+    <link rel="stylesheet" href="catalog.css">
+    <script src ="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src ="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+</head>
+
+<body>
+    <!-- <p>Bine ati venit pe acest site</p> -->
+    <div class="containerNavigatie">
+        <div class="meniu">
+            <li>
+                <a href="../index.html">Acasa</a>
+            </li>
+            <li>
+                <a href="catalog.html">Catalog</a>
+            </li>
+            <li>
+                <a href="../contact.html">Contact</a>
+            </li>
+            <div class="linie">
+            </div>
+        </div>
+     </div>   
+</body>
+
+<div class="container-cautare">
+      <input type="text" id="bara-cautare" placeholder="Cauta....">
+</div>
+
+
+<script type="module" src="catalog.js"></script>
+
+<div id="container-rezultate" class="container"></div>
+
+</html>

@@ -1,0 +1,51 @@
+{
+          "masini":[
+        {
+            "cai": 370,
+            "descriere":"Descriere",
+            "marca":"BMW",
+            "nume": "BMW i8",
+            "pret": "150.000 $",
+            "poza": "https://cdn.drivek.it/configurator-covermobile/cars/gb/500/BMW/I8/6626_COUPE-2-DOORS/bmw-i8.jpg"
+        }, {
+            "cai": 1237,
+            "descriere":"Descriere",
+            "marca":"Mercedes",
+            "nume": "Mercedes AVTR",
+            "pret": "2340.000 $",
+            "poza": "https://i.postimg.cc/G3QNj61f/car.webp"
+        }, {
+            "cai": 430,
+            "descriere":"Descriere",
+            "marca":"Mustang",
+            "nume": "Mustang GTD",
+            "pret": "80.000 $",
+            "poza": "https://i.postimg.cc/bJvbfGsk/hhu.webp"
+        
+        }, {
+            "cai": 430,
+            "descriere":"Descriere",
+            "marca":"Vader",
+            "nume": "Vader",
+            "pret": "300.000 $",
+            "poza": "../03_dsc1703-1-oskar-bakke.jpg"
+        
+        }, {
+            "cai": 430,
+            "descriere":"Descriere",
+            "marca":"Lamborgine",
+            "nume": "Lamborgine",
+            "pret": "250.000 $",
+            "poza": "../65132b9195937455.jpg"
+        
+        }, {
+            "cai": 430,
+            "descriere":"Descriere",
+            "marca":"Doughtcar",
+            "nume": "Doughtcar",
+            "pret": "140.000 $",
+            "poza": "../248415.jpg"
+        }
+        ]
+  }
+
