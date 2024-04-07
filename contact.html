@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+
+    <title>ReprezentantaAuto</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyD6n_z-wHhuGZ24uq-De_JJY357T7F2vl8",
+          authDomain: "database-reprezentanta.firebaseapp.com",
+          databaseURL: "https://database-reprezentanta-default-rtdb.europe-west1.firebasedatabase.app",
+          projectId: "database-reprezentanta",
+          storageBucket: "database-reprezentanta.appspot.com",
+          messagingSenderId: "786912566289",
+          appId: "1:786912566289:web:2ded4bc4eff7be1b31a5b0"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script> 
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+   emailjs.init({
+     publicKey: "WqXwdMR_OYsBR6XRF",
+   });
+})();
+</script>
+      
+</head>
+
+<body>
+    <!-- <p>Bine ati venit pe acest site</p> -->
+    <div class="containerNavigatie">
+        <div class="meniu">
+            <li>
+                <a href="../index.html">Acasa</a>
+            </li>
+            <li>
+                <a href="../catalog.html">Catalog</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <div class="linie">
+            </div>
+        </div>
+     </div> 
+     <div class="jumbotron">
+        <div class="container" style="text-shadow: 2px 2px black;">
+            <h1 style="font-weight:100; text-align: center; margin-top: 10px;">Asa ne poti contacta:</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5986.831699820457!2d2.162860929527507!3d41.386774556137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f16d92b825%3A0xc8e62e2f8f1fa5b6!2sEl%20Corte%20Ingl%C3%A9s!5e0!3m2!1sen!2sro!4v1710063633360!5m2!1sen!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                    </div>
+                    <div class="col">
+                <h3>Adresa Noastra:</h3>
+                <h5>Strada de Catalunya,Barcelona Spania</h5>
+                <h3>Ai intrebari? Ai echipa noastra la dispozitie!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-group">
+                <label for="inputName">Nume:</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Introdu numele">
+            </div>
+    
+            <div class="form-group">
+                <label for="inputEmail">Email:</label>
+                <input type="text" class="form-control" id="inputEmail" placeholder="Introdu email-ul">
+            </div>
+    
+            <div class="form-group">
+                <label for="inputSubiect">Subiect:</label>
+                <textarea class="form-control" id="inputSubiect" rows="5"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="trimiteEmail()">Trimite</button>
+        </div>
+    </div>
+     
+    <script src="conctact.js"></script>
+
+ 
+
+</body>
+</html>
