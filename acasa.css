@@ -1,0 +1,167 @@
+body{
+    margin:0;
+ }
+
+
+ .containerNavigatie{
+     text-align: center;
+     width:100%;  
+     height:80px ;
+     background-color:rgb(8, 93, 204, 0.668);
+     box-shadow: 15px 16px 77px 3px rgba(7,92,71,1);
+}                                       
+.containerNavigatie .meniu{
+      display: flex;
+      position: relative;
+}
+.containerNavigatie .meniu li{
+       list-style: none;
+       font-size: 30px;
+       flex: 1;
+       padding: 20px;
+}
+.containerNavigatie .meniu li{
+color: rgb(206, 87, 226);
+text-decoration: none;
+transition: color 0.3 ease;
+}
+
+.containerNavigatie .meniu li a{
+    color: rgb(155, 15, 155);
+}
+
+.containerNavigatie .meniu li:hover a{
+    color: rgb(5, 104, 61);
+}
+.containerNavigatie .meniu li:first-child{
+    color: rgb(5, 104, 61);
+}
+.containerNavigatie .meniu .linie{
+    height: 5px;
+    width: 40%;
+    background-color: rgb(5, 104, 61);
+    left: 0;
+    bottom:0;
+    position: absolute;
+}
+.containerNavigatie .meniu li:nth-child(2):hover ~.linie{
+    left: 30%;
+}
+.containerNavigatie .meniu li:nth-child(3):hover ~.linie{
+    left: 60%;
+}
+
+.jumbotron{
+    height: 800px; /*inaltimea pozei*/
+    background: linear-gradient(rgba(83, 163, 224, 0.25),rgba(98, 181, 217, 0.4)),
+                url(https://robbreport.com/wp-content/uploads/2020/09/victor01.jpg?w=1000);
+color: rgb(255, 255, 255);
+     background-size: cover;
+     background-repeat: no-repeat;           
+text-align: center;
+}
+
+
+@-webkit-keyframes culoare-masina{
+    0%, 100% { -webkit-filter: invert(20%) sepia(70%) saturate(3300%) hue-rotate(350deg) brightness(130%) contrast(100%);}
+    50%{ -webkit-filter: invert(100%) sepia(10%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(80%);}
+}  
+
+
+.jumbotron .masina{
+    width:100px;
+    height:100px;
+    -webkit-animation: culoare-masina 3s infinite;
+}
+
+.continut-text{
+    margin:5% 10% ;
+}
+
+.sectiune_carduri{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.sectiune_carduri h1{
+   font-size: 24px;
+   font-weight: 400;
+   text-align:center;
+}
+
+.lista_carduri{
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.element_card{
+    display:flex;
+    padding: 16px;
+    max-width:50%;
+}
+
+.sectiune_carduri{
+    max-width: 100%;
+    height:auto ;
+}
+ .sectiune_carduri .card{
+    display: flex;
+    box-shadow:0 20px 40px -15px rgba(0, 0, 0, 0.25)
+ }
+
+ .card img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+ }
+ 
+ .sectiune_carduri .btn{
+    padding: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.continut_card{
+    padding: 16px;
+    background: linear-gradient(to bottom left, #759cbe, rgb(173, 220, 232));
+}
+
+.titlu_card{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.text_card{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+.sectiune_carduri .btn:hover{
+    background-color: #759cbe;
+    color:white;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color: rgb(0, 0, 0); 
+}
+
+::-webkit-scrollbar-track{
+    background-color: #07606a;
+}
